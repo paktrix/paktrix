@@ -1,0 +1,164 @@
+/* Sustainability Section Background start */
+.sustainability_bg {
+  background-image: url("https://nanakpropack-alpha.vercel.app/static/media/testimonialBG1.d9ce347fa76627b6c066.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 1500px 1000px rgba(0, 0, 0, 0.829);
+}
+.card_width {
+  width: 75%;
+}
+@media (max-width: 576px) {
+  .card_width {
+    width: 100% !important;
+  }
+}
+.sustainability-card {
+  background-color: rgba(0, 81, 128, 0.664);
+  border: 4px solid white;
+  border-radius: 15px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.iconhover {
+  transition: transform 0.5s ease;
+  display: inline-block;
+}
+.sustainability-card:hover .iconhover {
+  transform: rotateY(180deg);
+}
+.sustainability-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+/* Sustainability Section Background end */
+
+/* sustainable planet start */
+.sustainable-img-box {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.sustainable-img-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.sustainable-img-text {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.845);
+}
+@media (max-width: 1200px) {
+  .sustainable-img-text {
+    font-size: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .sustainable-img-text {
+    font-size: 40px;
+    top: 70px;
+    left: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .sustainable-img-text {
+    font-size: 30px;
+    top: 50px;
+    left: 80px;
+  }
+}
+@media (max-width: 500px) {
+  .sustainable-img-text {
+    font-size: 25px;
+    top: 30px;
+    left: 40px;
+  }
+}
+/* sustainable planet end */
+
+/* VideoEnergy start */
+.mainvideo {
+  width: 100%;
+  height: 260px;
+  background-image: url("../images//certificate.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1200px) {
+  .mainvideo {
+    height: 220px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mainvideo {
+    height: 170px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainvideo {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mainvideo {
+    height: 90px;
+  }
+}
+/* VideoEnergy end */
+
+/* IndustrySec start */
+.industries-section {
+  width: 100%;
+  height: auto;
+  background-image: url("../images/bodyBGimg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.635);
+}
+.industry-box {
+  background-color: whitesmoke;
+  padding: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s ease-in-out !important;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 75% 90%, 50% 85%, 25% 90%, 0 80%);
+}
+.industry-box:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, #008a43, #00bcd4);
+  color: white !important;
+}
+.industry-box:hover .industry-icon,
+.industry-box:hover .industry-name {
+  color: white;
+}
+.industry-icon {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.industry-name {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 22px;
+}
+@media (max-width: 768px) {
+  .industry-box {
+    padding: 15px;
+  }
+  .industry-icon {
+    font-size: 36px;
+  }
+}
+/* IndustrySec end */
