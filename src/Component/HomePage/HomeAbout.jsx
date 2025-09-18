@@ -12,7 +12,7 @@ function HomeAbout() {
               In a world where packaging was once just an afterthought, a woman with vision, grit, and purpose saw an opportunity to reimagine the box—not just as a container, but as a canvas for brands and a commitment to the planet.
             </div>
             <div className='pera pe-lg-5 pe-0 py-3' style={{ textAlign: "justify" }}>
-              What began as a small idea in a modest workspace has grown into a packaging brand that’s changing the way businesses think about corrugated boxes. Led by a woman entrepreneur who believed that sustainability and style could go hand in hand, our company was founded on the belief that every product deserves packaging that protects, tells a story, and leaves a lighter footprint on the Earth.
+              What began as a small idea in a modest workspace has grown into a packaging brand that’s changing the way businesses think about corrugated boxes. Led by a woman entrepreneur who believed that sustainability and style could go hand in hand, our company was founded on the belief that every product deserves packaging that protects, tells a story, and leaves a lighter footprint on the earth.
             </div>
             <div className='pera pe-lg-5 pe-0' style={{ textAlign: "justify" }}>
               We specialize in eco-friendly, fully recyclable corrugated solutions that are not only built to last, but designed to reflect your brand’s unique identity. With a passion for customization and a commitment to green practices, we empower businesses—big and small—to ship smarter, greener, and more beautifully.
