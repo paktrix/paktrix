@@ -24,10 +24,10 @@ function Footer() {
               <div className="h-100 text-white" data-aos="fade-left"
                 data-aos-duration="1500"
                 data-aos-once="true">
-                <div className="fw-medium pera d-flex align-items-start mb-2">
-                  <span className="fw-bold me-2 mt-1" style={{ color: "#f8f9fad6" }}><FaMapLocationDot className='fs-4' /></span>
+                <div className="fw-medium pera d-flex align-items-start mb-3">
+                  <span className="fw-bold me-2" style={{ color: "#f8f9fad6" }}><FaMapLocationDot className='fs-4' /></span>
                   <Link to={"https://maps.app.goo.gl/E6pW7qP6CB52yenj9"} target="_blank" className="text-decoration-none text-white">
-                    No.-29, Sai Krupa Society, Anjanafarm, Nr. Raghukul Mkt., Railway Bridge, Ring Road, Surat, Gujarat-395007. (India)
+                    336, La Victoria, Near Galaxy Circle, Pal, Surat-394510 (Gujarat)
                   </Link>
                 </div>
 
