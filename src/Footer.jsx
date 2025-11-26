@@ -27,7 +27,7 @@ function Footer() {
                 <div className="fw-medium pera d-flex align-items-start mb-3">
                   <span className="fw-bold me-2" style={{ color: "#f8f9fad6" }}><FaMapLocationDot className='fs-4' /></span>
                   <Link to={"https://maps.app.goo.gl/E6pW7qP6CB52yenj9"} target="_blank" className="text-decoration-none text-white">
-                    336, La Victoria, Near Galaxy Circle, Pal, Surat-394510 (Gujarat)
+                    336, La Victoria, Near Galaxy Circle, Pal, Surat-394510 (Gujarat), India.
                   </Link>
                 </div>
 
